@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/manhhuy01/thithutoeic-backend/issues"
   },
-  "homepage": "https://github.com/manhhuy01/thithutoeic-backend#readme"
+  "homepage": "https://github.com/manhhuy01/thithutoeic-backend#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
