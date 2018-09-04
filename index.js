@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/api/example', (req, res, next)=> {
-    res.json(["a", "b","c"])
+    res.json({user: "huy", name: "manh huy"})
 })
 
 app.use(express.static("client/dist"))
